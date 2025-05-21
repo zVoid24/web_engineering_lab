@@ -1,0 +1,42 @@
+h3{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#p1{
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.p2{
+    background-color: lightcoral;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+div{
+    background-color: lightgreen;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.google_link{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+button{
+    background-color: lightblue;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+}
