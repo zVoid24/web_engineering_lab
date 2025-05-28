@@ -1,13 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
     <style>
-        td{
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 40px;
+        }
+
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #ddd;
+        }
+
+        header h1 {
+            font-size: 36px;
+            color: #004080;
+        }
+
+        header p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        section,
+        article {
+            margin-top: 30px;
+            background-color: #fff;
+            padding: 20px;
+            border-left: 4px solid #004080;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+            border-radius: 5px;
+        }
+
+        h2 {
+            color: #004080;
+            margin-bottom: 10px;
+            font-size: 24px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            text-align: left;
             padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        th {
+            background-color: #e6f0ff;
+        }
+
+        ul {
+            list-style: disc inside;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        footer a {
+            color: #004080;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        a.button-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #004080;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        a.button-link:hover {
+            background-color: #0066cc;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #004080;
+            color: white;
+            padding: 30px 20px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .footer-links a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        .footer-tagline {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
         }
     </style>
 </head>
@@ -25,7 +138,7 @@
 
     <section>
         <h2>Education</h2>
-        <table border="1" cellspacing="0">
+        <table>
             <tr>
                 <th>Degree</th>
                 <th>Institution</th>
@@ -55,13 +168,24 @@
     </article>
 
     <footer>
-        <p>Connect with me:
-            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
-            <a href="https://www.github.com" target="_blank">GitHub</a>
-        </p>
+        <div class="footer-container">
+
+            <div class="footer-links">
+                <p><strong>Connect with me:</strong></p>
+                <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
+                <a href="https://www.github.com" target="_blank">GitHub</a>
+            </div>
+            <br>
+            <div class="footer-tagline">
+                <p>Passionate about building user-focused digital solutions.</p>
+                <p>&copy; 2025 Zahidul Islam Rabbi</p>
+            </div>
+        </div>
     </footer>
-    <br><br>
-    <a href="index4.html">Next Page</a>
+
+    <div style="text-align: center;">
+        <a class="button-link" href="index4.html">Next Page</a>
+    </div>
 </body>
 
 </html>
