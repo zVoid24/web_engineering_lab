@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+
+</head>
+
+<body>
+    <h1>Student Registration</h1>
+    <form>
+        <fieldset>
+            <legend>Basic Info</legend>
+            Name: <input type="text" name="name" required placeholder="Your Name"><br><br>
+            Email: <input type="email" name="email" required placeholder="your@email.com"><br><br>
+            Phone: <input type="tel" name="phone" maxlength="11" placeholder="01634328659"><br><br>
+            Gender:
+            <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female<br><br>
+            Department:
+            <select name="department">
+                <option value="cs">Computer Science</option>
+                <option value="it">IT</option>
+                <option value="eng">Engineering</option>
+            </select><br><br>
+            Skills:<br>
+            <input type="checkbox" name="skills" value="html"> HTML<br>
+            <input type="checkbox" name="skills" value="css"> CSS<br>
+            <input type="checkbox" name="skills" value="js"> JavaScript<br><br>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend>About You</legend>
+            <textarea placeholder="Tell us about yourself" rows="6" cols="50"></textarea><br><br>
+        </fieldset>
+        <br>
+        <input type="checkbox" required> I agree to the terms<br><br>
+        <input type="submit" value="Register">
+    </form>
+    <br><br>
+    <a href="index3.html">Next Page</a>
+</body>
+
+</html>
