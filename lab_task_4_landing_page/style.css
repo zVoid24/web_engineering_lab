@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #e5e5e5;
+}
+
+.navbar {
+  background-color: #5a26e6;
+  padding: 16px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.logo {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  justify-content: center;
+    display: flex;
+}
+
+.logo>div{
+    padding: 5px;
+}
+
+
+
+.nav-links a {
+  color: white;
+  margin: 0 16px;
+  text-decoration: none;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.profile-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+
+.main-content {
+  max-width: 1200px;
+  margin: 32px auto;
+  background: white;
+  padding: 32px;
+  border-radius: 10px;
+}
+
+section {
+  margin-bottom: 32px;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  color: #5a26e6;
+}
+
+.course-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.player-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 300px;
+  row-gap: 32px;
+  margin-bottom: 32px;
+}
+
+.player {
+  display: flex;
+  align-items: center;
+  gap: 10px;       
+  min-width: 180px; 
+}
+
+
+.player span {
+  white-space: nowrap; 
+  color: #333;
+  font-size: 15px;
+}
+
+.player img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  flex-shrink: 0;     
+}
+
+.blog-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+}
+
+.blogs>div{
+  padding: 20px;
+}
+
+
+.blog {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 500px;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.course {
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 250px;
+  height: 100px;
+}
+
+.blog img, .course img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blog .info, .course .info {
+  padding: 16px;
+}
+
+.blog .info h4, .course .info h4 {
+  margin: 8px rem 0;
+  font-size: 16px;
+  color: #333;
+ 
+}
+
+.blog .info p, .course .info p {
+  margin: 0;
+  font-size: 0.875rem;
+  color: #777;
+}
+
+.course .author {
+  color: orange;
+  margin: 0.5rem 0;
+}
+
+.course .meta {
+  display: flex;
+  justify-content: space-between;
+  color: #777;
+  font-size: 0.875rem;
+}
+
+.footer {
+  background: #5a26e6;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}

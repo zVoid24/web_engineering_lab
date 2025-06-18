@@ -1,0 +1,109 @@
+
+#grad1{
+    background-image: linear-gradient(blue, white);  
+    width: 100%;
+    height: 200px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+#grad2{
+    background-image: radial-gradient(circle,blue,rgb(94, 204, 216),rgba(32, 235, 123, 0.934));  
+    width: 100%;
+    height: 200px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+#multiple_background_image{
+    background-image: url(assets/windows.png), url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXzXNUr2pA83cXri-uzhjN8oSWZAybg65qOw&s);
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px;
+    border-radius: 20px;
+    background-position: center;
+
+}
+
+#shadow1{
+    background-color: rgb(101, 151, 200);
+    width: 100%;
+    height: 200px;
+    margin: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+}
+
+#text_overflow {
+    width: 300px;
+    height: 60px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: rgb(101, 151, 200);
+    word-wrap: break-word; 
+    overflow: hidden;
+    text-overflow: ellipsis; 
+}
+
+#transition1{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(101, 151, 200);
+    margin: 50px;
+    border-radius: 20px;
+    transition: 3s width;
+}
+
+#transition1:hover {
+    width: 100%;
+}
+
+#animation{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(123, 0, 255);
+    margin: 50px;
+    border-radius: 20px;
+    animation-name: myAnimation2 ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+
+@keyframes myAnimation {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+@keyframes myAnimation2 {
+  0%   {left: 0px; top: 0px;transform: rotate(72deg);}
+  25%  {left: 200px; top: 0px;transform: rotate(144deg);}
+  50%  {left: 200px; top: 200px;transform: rotate(216deg);}
+  75%  {left: 0px; top: 200px;transform: rotate(288deg);}
+  100% {left: 0px; top: 0px;transform: rotate(360deg);}
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(101, 151, 200);
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.flex-container > div {
+    background-color: rgba(0, 255, 153, 0.647);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 10px;
+}
+
